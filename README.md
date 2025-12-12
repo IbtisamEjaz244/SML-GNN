@@ -75,6 +75,11 @@ source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
+If pip ever complains about PyG wheels, install PyG manually:
+```
+pip install torch-geometric
+```
+Then do pip install requirements again.
 
 ## 1. Add CIF files
 
