@@ -1,0 +1,49 @@
+# -----------------------
+# Python bytecode & cache
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------
+# Virtual environments
+# -----------------------
+.venv/
+env/
+venv/
+
+# -----------------------
+# CIF folder (user must add their own)
+# -----------------------
+CIFS/*
+!CIFS/.gitkeep
+
+# -----------------------
+# TensorBoard logs
+# -----------------------
+runs/
+
+# -----------------------
+# Log files
+# -----------------------
+*.log
+*.txt
+
+# -----------------------
+# OS/System files
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# IDE settings (optional)
+# -----------------------
+.vscode/
+.idea/
+
+# -----------------------
+# Checkpoints / models (if added later)
+# -----------------------
+*.pt
+*.pth
